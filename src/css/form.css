@@ -1,0 +1,54 @@
+.form{
+    position: absolute;
+    left:50%;
+    top:50%;
+    transform: translate(-50%, -50%);
+    min-width: 200px;
+    max-width: 300px;
+    background-color: #fff;
+    padding: 10px;
+}
+.form *{
+    color: #666;
+}
+
+.label-input{
+    display: flex;
+    flex-direction: column;
+}
+
+.label-input input{
+    width: calc(100% - 18px);
+}
+.label-input select {
+    width: 100%;
+}
+
+.label-input select, .label-input input{
+    padding: 8px;
+    border: 1px solid #666  ;
+    margin: 5px 0;
+}
+
+.label-input span {
+    color: red;
+}
+
+button{
+    cursor: pointer;
+    text-align: center;
+    margin: 0 auto;
+    width: 60px;
+    color: #fff !important;
+    background-color: #ff73b3;
+    border: none;
+    box-shadow: 0 0 10px 1px #ff73b3;
+    margin-top: 30px;
+    padding: 8px;
+}
+
+
+
+body{
+    background-color: #5254A9;
+}
